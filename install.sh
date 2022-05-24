@@ -1,8 +1,6 @@
 apk add curl
 apk add openssl
-curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
-chmod 700 get_helm.sh
-ash ./get_helm.sh
+curl -L https://git.io/get_helm.sh | ash -s -- --version v3.8.2
 
 rm ./get_helm.sh
 
