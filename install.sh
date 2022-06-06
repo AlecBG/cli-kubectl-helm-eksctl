@@ -17,5 +17,4 @@ mv /tmp/eksctl /usr/local/bin
 
 apk add --no-cache aws-cli
 
-apk del curl
 apk del openssl
